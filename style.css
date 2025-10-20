@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5dc;
+  color: #333;
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+header {
+  background-color: #e6d8ad;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.contact-details a {
+  color: #8b7d3a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #e6d8ad;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e6d8ad;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+#topBtn:hover {
+  background-color: #d9c67a;
+}
+
+
+.center-big-bold {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+nav {
+  background-color: #f0e4b5;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+
+
